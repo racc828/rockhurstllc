@@ -11,6 +11,15 @@ nav ul li{
 	display:inline-block;
 }
 
+.contact-link {
+	color:#9a0000;
+	border-bottom:1px dotted #9a0000!important;
+}
+
+.contact-link:hover {
+	border-bottom:1px solid #9a0000;
+}
+
 nav {
 	background:#fff;
 	border:none;
@@ -124,11 +133,11 @@ ul:not(.browser-default)>li {
 }
 
 @media (max-width:992px) {
-	nav ul li{ 
+	nav ul li{
 		float:left;
 		display:block;
 	}
-	
+
 	nav .button-collapse i {
 		color:#9a0000;
 	}
