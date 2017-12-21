@@ -138,6 +138,10 @@ ul:not(.browser-default)>li {
 		display:block;
 	}
 
+	.line {
+		display:none;
+	}
+
 	nav .button-collapse i {
 		color:#9a0000;
 	}
