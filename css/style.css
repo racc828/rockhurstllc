@@ -121,6 +121,17 @@ ul:not(.browser-default)>li {
 	height:100vh
 }
 
+.login {
+	float:right;
+	position:absolute;
+	right:30px;
+	top:30px;
+}
+
+.login a {
+	color:#9a0000!important;
+}
+
 .logo-container {
 	text-align:center;
 	padding-top:20px;
