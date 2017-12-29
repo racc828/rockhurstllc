@@ -11,6 +11,32 @@ nav ul li{
 	display:inline-block;
 }
 
+.relative {
+	position:relative;
+}
+
+.hover-effect {
+	position:absolute;
+	height:100%;
+	background:transparent;
+	width:100%;
+	left:0;
+	bottom:0;
+	text-align:center;
+	color:transparent;
+	padding-top:40%;
+	transition: background-color 0.5s ease;
+}
+
+.hover-effect:hover {
+	background:rgba(255,255,255, .6);
+	color:#9a0000;
+}
+
+.team-photo {
+	width:100%;
+}
+
 .contact-link {
 	color:#9a0000;
 	border-bottom:1px dotted #9a0000!important;
