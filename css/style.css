@@ -10,10 +10,10 @@ nav ul li{
 	float:none;
 	display:inline-block;
 }
-
+/*
 .relative {
 	position:relative;
-}
+}*/
 
 .hover-effect {
 	position:absolute;
