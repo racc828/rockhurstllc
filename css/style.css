@@ -70,6 +70,64 @@ nav {
 	background:#fff;
 }
 
+.side-filter {
+	background:#9a0000;
+	color:#fff;
+	padding:20px 5px!important;
+}
+.side-filter h6,
+.side-filter div {
+	color:#fff!important;
+}
+
+
+.s-portfolio__caption-hover--cc {
+	background:#9a0000!important;
+}
+
+.card-inner {
+	vertical-align:top!important;
+}
+
+.custom-container {
+	width:90%;
+	margin:auto;
+}
+
+.s-portfolio__filter-v1-item {
+	margin:10px 5px;
+	font-size:14px;
+}
+
+.tabs {
+	background-color:#9a0000!important;
+}
+.tabs .indicator {
+	background-color:#9a0000!important;
+}
+.tabs .tab a,
+.tabs .tab a:hover, .tabs .tab a.active {
+	color:#fff!important;
+}
+
+.tab a.active {
+	font-weight:bold!important;
+}
+
+.tabs {
+	margin-bottom:20px;
+}
+
+.cbp {
+	margin-top:40px;
+}
+
+.cv-beg {
+	text-decoration:underline;
+	font-style:italic;
+	font-weight:bold;
+}
+
 nav ul a {
 	color:#9a0000;
 	text-transform:uppercase;
@@ -79,7 +137,7 @@ nav ul a {
 	background:#9a0000;
 	position:absolute;
 	bottom:15px;
-	text-align:center;
+	text-align:left;
 	width:100%;
 	padding:10px 0;
 	box-shadow: 0px 5px 5px #000, 0px -5px 5px #000;
@@ -94,6 +152,10 @@ nav ul a {
 	position:relative;
 	text-align:center;
 	color:#9a0000;
+}
+
+nav {
+	background:transparent!important;
 }
 
 .line {

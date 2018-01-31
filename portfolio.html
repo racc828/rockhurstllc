@@ -5,6 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Rockhurstllc</title>
+
+
+<!-- Vendor Styles -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="vendor/themify/themify.css" rel="stylesheet" type="text/css"/>
+<link href="vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"/>
+<link href="vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css"/>
+<link href="vendor/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+
+<!-- Theme Styles -->
+<link href="css/style2.css" rel="stylesheet" type="text/css"/>
+<link href="css/global/global.css" rel="stylesheet" type="text/css"/>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 <link rel="stylesheet" href="css/style.css">
@@ -44,86 +57,242 @@
 	<section>
 		<div class="container">
 			<h4 class="header-title"><span class="line line-left"></span>Portfolio<span class="line line-right"></span></h4>
-			 <div class="row logos-row">
-				<div class="col l3 m3 s6">
-					<div class="card-inner z-depth-3">
-				 		<img src="img/aegisliving.png">
-					</div>
-				 </div>
-				 <div class="col l3 m3 s6">
-					 <div class="card-inner z-depth-3">
-				 		<img src="img/beco.png">
-					 </div>
-				 </div>
-				 <div class="col l3 m3 s6">
-					 <div class="card-inner z-depth-3">
-				 		<img src="img/benchmark.jpg">
-					 </div>
-				 </div>
-				 <div class="col l3 m3 s6">
-					 <div class="card-inner z-depth-3">
-				 		<img src="img/demandware.png">
-					 </div>
-				 </div>
-			</div>
-			 <div class="row logos-row">
-				 <div class="col l3 m3 s6">
-					 <div class="card-inner z-depth-3">
-				 		<img src="img/download.jpg">
-					 </div>
-				 </div>
-				 <div class="col l3 m3 s6">
-					 <div class="card-inner z-depth-3">
-				 		<img src="img/kantarretail.png">
-					 </div>
-				 </div>
-				 <div class="col l3 m3 s6">
-					 <div class="card-inner z-depth-3">
-				 		<img src="img/oneclick.png">
-					 </div>
-				 </div>
-				 <div class="col l3 m3 s6">
-					 <div class="card-inner z-depth-3">
-				 		<img src="img/onforce.png">
-					 </div>
-				 </div>
-			</div>
-			 <div class="row logos-row">
-				 <div class="col l3 m3 s6">
-					 <div class="card-inner z-depth-3">
-				 		<img src="img/petiq.png">
-					 </div>
-				 </div>
-				 <div class="col l3 m3 s6">
-					 <div class="card-inner z-depth-3">
-				 		<img src="img/planetretail.png">
-					 </div>
-				 </div>
-				 <div class="col l3 m3 s6">
-					 <div class="card-inner z-depth-3">
-				 		<img src="img/redbox.png">
-					 </div>
-				 </div>
-				 <div class="col l3 m3 s6">
-					 <div class="card-inner z-depth-3">
-				 		<img src="img/rens.png">
-					 </div>
-				 </div>
-			</div>
-			<div class="row logos-row">
-				 <div class="col l3 m3 s6">
-					 <div class="card-inner z-depth-3">
-				 		<img src="img/zoomsystems.png">
-					 </div>
-				 </div>
-				 <div class="col l3 m3 s6">
-					 <div class="card-inner z-depth-3">
-				 		<img src="img/upshotagency.png">
-					 </div>
-				 </div>
-			</div>
-		</div>
-	</section>
+			<div class="row">
+
+				<!-- Main -->
+				<div class="col l12 m12">
+					<div class="row">
+						<div class="col s12">
+							<ul class="tabs">
+								<li class="tab col s4"><a class="active" href="#pefunds">PE Funds Only</a></li>
+								<li class="tab col s4"><a href="#directcoinvestments">Direct Co Investments</a></li>
+								<li class="tab col s4"><a href="#exits">exits</a></li>
+							</ul>
+						</div>
+
+						<!-- Side Filter -->
+						<div class="col l2 m2 side-filter">
+							<!-- Portfolio Filter -->
+							<div class="custom-container">
+									<div>
+											<div id="js__filters-portfolio-gallery" class="">
+
+													<h6><strong>BY SECTOR</strong></h6>
+													<hr>
+													<div data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active">Show All</div>
+													<div data-filter=".graphic" class="s-portfolio__filter-v1-item cbp-filter-item">Aging – Assisted Living</div>
+													<div data-filter=".logos" class="s-portfolio__filter-v1-item cbp-filter-item">Analytics, AI/ML </div>
+													<div data-filter=".motion" class="s-portfolio__filter-v1-item cbp-filter-item">Automated Retail </div>
+													<div data-filter=".motion" class="s-portfolio__filter-v1-item cbp-filter-item">Buyout – Large Cap China </div>
+													<!-- <div data-filter="." class="s-portfolio__filter-v1-item cbp-filter-item">Life Sciences</div>
+													<div data-filter="." class="s-portfolio__filter-v1-item cbp-filter-item">Product Innovation</div>
+													<div data-filter="." class="s-portfolio__filter-v1-item cbp-filter-item">Retail – store based</div>
+													<div data-filter="." class="s-portfolio__filter-v1-item cbp-filter-item">SAS (software as service)</div>
+													<div data-filter="." class="s-portfolio__filter-v1-item cbp-filter-item">Services – B2B, Consumer</div>
+													<div data-filter="." class="s-portfolio__filter-v1-item cbp-filter-item">Tech - Other</div> -->
+
+											</div>
+									</div>
+							</div>
+							<!-- End Portfolio Filter -->
+						</div>
+
+
+						<div class="col l10 m10">
+							<div class="custom-container">
+									<div id="js__grid-portfolio-gallery" class="cbp">
+									<!-- Tab 1 -->
+									<div id="pefunds" class="col s12">
+										<!-- Portfolio Gallery -->
+
+										        <!-- Item -->
+										        <div class="card-inner z-depth-3 s-portfolio__item cbp-item logos motion">
+										            <div class="s-portfolio__img-effect">
+										                <img src="img/pefunds/baincapital.png" alt="Portfolio Image">
+										            </div>
+										            <div class="s-portfolio__caption-hover--cc">
+										                <div class="g-margin-b-25--xs">
+										                    <h2 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Bain Capital</h2>
+										                    <p class="g-color--white-opacity"></p>
+										                </div>
+										                <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+										                    <li>
+										                        <a href="https://www.baincapital.com"target="_blank" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+										                            <i class="ti-link"></i>
+										                        </a>
+										                    </li>
+										                </ul>
+										            </div>
+										        </div>
+										        <!-- Item -->
+										        <div class="card-inner z-depth-3 s-portfolio__item cbp-item graphic">
+										            <div class="s-portfolio__img-effect">
+										                <img src="img/pefunds/benchmarkseniorliving.png" alt="Portfolio Image">
+										            </div>
+										            <div class="s-portfolio__caption-hover--cc">
+										                <div class="g-margin-b-25--xs">
+										                    <h3 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">BenchMark Senior Living</h3>
+										                </div>
+										                <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+
+										                    <li>
+										                        <a href="https://www.benchmarkseniorliving.com/" target="_blank" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+										                            <i class="ti-link"></i>
+										                        </a>
+										                    </li>
+										                </ul>
+										            </div>
+										        </div>
+										        <!-- Item -->
+										        <div class="card-inner z-depth-3 s-portfolio__item cbp-item logos">
+										            <div class="s-portfolio__img-effect">
+										                <img src="img/pefunds/generalcatalyst.png" alt="Portfolio Image">
+										            </div>
+										            <div class="s-portfolio__caption-hover--cc">
+										                <div class="g-margin-b-25--xs">
+										                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">General Catalyst</h4>
+										                    <p class="g-color--white-opacity"></p>
+										                </div>
+										                <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+										                    <li>
+										                        <a href="http://generalcatalyst.com/" target="_blank" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+										                            <i class="ti-link"></i>
+										                        </a>
+										                    </li>
+										                </ul>
+										            </div>
+										        </div>
+										        <!-- Item -->
+										        <div class="card-inner z-depth-3 s-portfolio__item cbp-item motion graphic">
+										            <div class="s-portfolio__img-effect">
+										                <img src="img/pefunds/polaris.png" alt="Portfolio Image">
+										            </div>
+										            <div class="s-portfolio__caption-hover--cc">
+										                <div class="g-margin-b-25--xs">
+										                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Polaris Partners</h4>
+										                </div>
+										                <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+										                    <li>
+										                        <a href="http://www.polarispartners.com/" target="_blank" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+										                            <i class="ti-link"></i>
+										                        </a>
+										                    </li>
+										                </ul>
+										            </div>
+										        </div>
+
+
+									</div>
+
+									<!-- Tab 2 -->
+									<div id="directcoinvestments" class="col s12">
+											<!-- Item -->
+											<div class="card-inner z-depth-3 s-portfolio__item cbp-item motion graphic">
+													<div class="s-portfolio__img-effect">
+															<img src="img/directcoinvestments/aegisliving.png" alt="Portfolio Image">
+													</div>
+													<div class="s-portfolio__caption-hover--cc">
+															<div class="g-margin-b-25--xs">
+																	<h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Aegis LIving</h4>
+															</div>
+															<ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+																	<li>
+																			<a href="#" target="_blank" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+																					<i class="ti-link"></i>
+																			</a>
+																	</li>
+															</ul>
+													</div>
+											</div>
+
+											<!-- Item -->
+											<div class="card-inner z-depth-3 s-portfolio__item cbp-item motion graphic">
+													<div class="s-portfolio__img-effect">
+															<img src="img/directcoinvestments/petiq.png" alt="Portfolio Image">
+													</div>
+													<div class="s-portfolio__caption-hover--cc">
+															<div class="g-margin-b-25--xs">
+																	<h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pet IQ</h4>
+															</div>
+															<ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+																	<li>
+																			<a href="#" target="_blank" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+																					<i class="ti-link"></i>
+																			</a>
+																	</li>
+															</ul>
+													</div>
+											</div>
+
+											<!-- Item -->
+											<div class="card-inner z-depth-3 s-portfolio__item cbp-item motion graphic">
+													<div class="s-portfolio__img-effect">
+															<img src="img/directcoinvestments/celect.png" alt="Portfolio Image">
+													</div>
+													<div class="s-portfolio__caption-hover--cc">
+															<div class="g-margin-b-25--xs">
+																	<h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Celect</h4>
+															</div>
+															<ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+																	<li>
+																			<a href="#" target="_blank" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+																					<i class="ti-link"></i>
+																			</a>
+																	</li>
+															</ul>
+													</div>
+											</div>
+
+											<!-- Item -->
+											<div class="card-inner z-depth-3 s-portfolio__item cbp-item motion graphic">
+													<div class="s-portfolio__img-effect">
+															<img src="img/directcoinvestments/beco.png" alt="Portfolio Image">
+													</div>
+													<div class="s-portfolio__caption-hover--cc">
+															<div class="g-margin-b-25--xs">
+																	<h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Beco</h4>
+															</div>
+															<ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+																	<li>
+																			<a href="#" target="_blank" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+																					<i class="ti-link"></i>
+																			</a>
+																	</li>
+															</ul>
+													</div>
+											</div>
+
+											<!-- Item -->
+											<div class="card-inner z-depth-3 s-portfolio__item cbp-item motion graphic">
+													<div class="s-portfolio__img-effect">
+															<img src="img/directcoinvestments/renspetdepot.png" alt="Portfolio Image">
+													</div>
+													<div class="s-portfolio__caption-hover--cc">
+															<div class="g-margin-b-25--xs">
+																	<h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Rens Pet Depot</h4>
+															</div>
+															<ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+																	<li>
+																			<a href="#" target="_blank" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+																					<i class="ti-link"></i>
+																			</a>
+																	</li>
+															</ul>
+													</div>
+											</div>
+
+									</div>
+
+									<!-- Tab 3 -->
+									<div id="exits" class="col s12">
+
+									</div>
+								</div>
+								<!-- End Portfolio Gallery -->
+						</div>
+				<!-- End -->
+						</div>
+
 	<footer class="relative">
 
 	</footer>
@@ -135,6 +304,26 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
+<!-- Vendor -->
+<script type="text/javascript" src="vendor/jquery.min.js"></script>
+<script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
+<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="vendor/jquery.back-to-top.min.js"></script>
+<script type="text/javascript" src="vendor/scrollbar/jquery.scrollbar.min.js"></script>
+<script type="text/javascript" src="vendor/swiper/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
+
+<!-- General Components and Settings -->
+<script type="text/javascript" src="js/global.min.js"></script>
+<!-- <script type="text/javascript" src="js/components/header-sticky.min.js"></script> -->
+<script type="text/javascript" src="js/components/scrollbar.min.js"></script>
+<script type="text/javascript" src="js/components/swiper.min.js"></script>
+<script type="text/javascript" src="js/components/portfolio-3-col.min.js"></script>
+<script type="text/javascript" src="js/components/wow.min.js"></script>
+<!--========== END JAVASCRIPTS ==========-->
 <script src="js/script.js"></script>
 
 </body>

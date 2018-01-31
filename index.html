@@ -1,65 +1,1037 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Rockhurstllc</title>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-<link rel="stylesheet" href="css/style.css">
-</head>
-
-<body class="main">
-
-	<section class="nav z-depth-4">
-		<div class="container">
-		  <div class="logo-container">
-				<a href="index.html"><img src="img/rockhurstlogo.png"></a>
-			<span class="login"><a href="https://rockhurstllc-login.herokuapp.com">Login</a>
-			</span>
-		  </div>
-		  <nav>
-			<div class="nav-wrapper">
-			  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-			  <ul class="center hide-on-med-and-down">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="creating-values.html">Creating Values</a></li>
-				<li><a href="team.html">Team</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="links.html">Links</a></li>
-			  </ul>
-			  <ul class="side-nav" id="mobile-demo">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="creating-values.html">Creating Values</a></li>
-				<li><a href="team.html">Team</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="links.html">Links</a></li>
-			  </ul>
-			</div>
-		  </nav>
-		</div>
-	</section>
-	<section class="home-picture relative">
-		<img src="https://images.unsplash.com/photo-1483653364400-eedcfb9f1f88?auto=format&fit=crop&w=750&q=80 750w">
-		<div class="bottom-text">
-			<div class="container">
-				<p>Rockhurst, LLC is a specialized investment firm that applies its experience, networks and xxx to ivnest in companies whose business models are well suited to industry change. It pursues oportunities at the intersection of key consumer, technologic and industry change including brands, services, digital commerce, AI/ML and related automation based entreprises.</p>
-			</div>
-		</div>
-	</section>
-	<footer class="relative">
-	</footer>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#333">
+    <title>Rockhurst, LLC.</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/css/preload.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins.min.css" />
+    <link rel="stylesheet" href="assets/css/style.light-blue-500.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="ms-preload" class="ms-preload">
+      <div id="status">
+        <div class="spinner">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+        </div>
+      </div>
+    </div>
 
 
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<script src="js/script.js"></script>
+      <header class="ms-header ms-header-dark">
+        <div class="container container-full">
+          <div class="ms-title">
+            <a href="index.html">
+              <!-- <img src="assets/img/demo/logo-header.png" alt=""> -->
+              <h1 class="animated fadeInRight animation-delay-6">
+                <span>Rockhurst, LLC.</span>
+              </h1>
+            </a>
+          </div>
+          <div class="header-right">
+            <a href="javascript:void(0)" class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8" data-toggle="modal" data-target="#ms-account-modal">
+              <i class="zmdi zmdi-account"></i>
+            </a>
+            <a href="javascript:void(0)" class="btn-ms-menu btn-circle btn-circle-primary sb-toggle-left animated zoomInDown animation-delay-10">
+              <i class="zmdi zmdi-menu"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <nav class="navbar navbar-static-top yamm ms-navbar ms-navbar-dark">
+        <div class="container container-full">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+              <!-- <img src="assets/img/demo/logo-navbar.png" alt=""> -->
+              <span class="ms-title">
+                <strong>Rockhurst, LLC.</strong>
+              </span>
+            </a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a class="dropdown-toggle animated fadeIn animation-delay-4" data-scroll href="#home">Home
+                </a>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle animated fadeIn animation-delay-5"  data-scroll href="#services">
+                  Creating Values
+                </a>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle animated fadeIn animation-delay-7" role="button" data-scroll href="#team">Team
+                </a>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle animated fadeIn animation-delay-7" data-scroll href="#portfolio">Portfolio
+                </a>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle animated fadeIn animation-delay-7" data-scroll href="#contact">Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- navbar-collapse collapse -->
+          <a href="javascript:void(0)" class="sb-toggle-left btn-navbar-menu">
+            <i class="zmdi zmdi-menu"></i>
+          </a>
 
-</body>
+        </div>
+        <!-- container -->
+      </nav>
+
+      <section id="home" class="">
+        <div class="wrap ms-hero-bg-success ms-hero-img-keyboard ms-bg-fixed">
+          <div class="container index-1">
+            <div class="text-center color-white mb-4 mw-800 center-block mt-8">
+
+              <p>
+                Rockhurst, LLC is a specialized investment team that applies its experience, networks and capital
+                to targeed private equity and individual entities whose business models are focused on bringing
+                significant change. We are thematic investors pursuing a specific set of ideas about the future.
+                We target our capital to those ideas where significant consumer, societal, technologic and
+                industry change is underway. Our investments include innovative consumer brands, B2B and
+                consumer services, store based and automated retail models, digital commerce, analytic based
+                entities and AI services as well as a deep commitment to assisted living and aging related
+                innovation such as companion robotics. 
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="">
+        <div class="wrap">
+          <div class="container">
+            <div class="text-center mb-4">
+              <h1 class="wow zoomInDown">Value Creation</h1>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <p class="wow fadeInUp animation-delay-3">
+                  <strong>Rockhurst, LLC partners and investors are all proven founders and entrepreneurs </strong>. from across significant consumer, technologic, digital commerce, analytic, consumer brands, food service (restaurants), consumer services (fin services), retail, assisted living and related sectors. We have all run fast growing firms through multiple stages of growth, team building and capitalization. It is an unusual group that can be especially helpful with rising entrepreneurs and CEO’s dealing with the realities of scaling. (click to go to investment partner page) Further we bring</p>
+
+              </div>
+              <div class="col-md-8">
+                <div class="card">
+                    <ul class="nav nav-tabs nav-tabs-full shadow-2dp" role="tablist">
+                        <li role="presentation" class="active"><a class="withoutripple" href="#home2" aria-controls="home2" role="tab" data-toggle="tab"><span class="hidden-xs">Established Networks</span></a></li>
+
+                        <li role="presentation"><a class="withoutripple" href="#profile2" aria-controls="profile2" role="tab" data-toggle="tab"><span class="hidden-xs">Advice</span></a></li>
+
+                        <li role="presentation"><a class="withoutripple" href="#messages2" aria-controls="messages2" role="tab" data-toggle="tab"> <span class="hidden-xs">Market Understanding</span></a></li>
+
+                    </ul>
+
+                    <div class="card-block">
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade active in" id="home2">
+                              <p>We have years of routine contact with significant and rapidly rising companies in each sector we invest. Each becomes part of a network of high-level operating and entrepreneurial experts as well as private equity and venture firms. These companies gain access not only to our extensive resources, but also to the resources of our extended network of advisors including senior executives of public and private businesses, established thought leaders in academia, and preeminent faculty and practitioners. These outstanding individuals provide the companies we back with expertise in areas such as market dynamics, business development, R&amp;D, financial and strategic planning, mergers and acquisitions, and more.</p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="profile2">
+                              <p>We are experienced with early stage venture, growth equity and buyout/leveraged private equity. We have long term institutional and corporate (strategic) investor relationships. We have worked with principals and these investor deal teams to buy, combine, re-position, sell and re-cap dozens of companies. We are often partners and board members/advisors in each deal. We have worked with Bain Capital, General Catalyst, Polaris Venture Partners, Sycamore Partners and Ascential PLC for example.</p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="messages2">
+                              <p>We invest in market sectors and geographies where we have deep experience and networks. These include</p>
+                              <ul>
+                                <li>Aging consumers (e.g. assisted living)</li>
+                                <li>Automation.. esp. AI/ML based enterprises</li>
+                                <li>Automated retailing (e.g. automated stores such as Amazon Go, DVD retailer Redbox)</li>
+                                <li>Branded and Private Label Consumer Products - restaurants, retailing, food service as well as mainstream consumer food products)</li>
+                                <li>Digital commerce (B2c, B2b, marketplaces)</li>
+                                <li>Financial technologies immediately relevant to large scale and specialty retail
+                                Knowledge Based Entities —Companies with deep research, training and syndicated content. We are especially active in content publishers.</li>
+                                <li>Marketing Services—Companies that provide marketing services and automation including:Retail stores (specialty retail), Retail Services (e.g. financial services, retail execution), Sensor networks (IOT enterprises)</li>
+                              </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="team">
+        <div class="wrap lb-bg">
+          <div class="container">
+            <div class="text-center mb-4">
+              <h1 class="wow zoomInDown">The Team</h1>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card card-primary mt-4 wow zoomInUp animation-delay-9">
+                  <div class="withripple zoom-img">
+                    <a href="javascript:void()" class="team-image-container">
+                      <img src="assets/img/team/dan.png" alt="..." class="img-responsive">
+                    </a>
+                  </div>
+                  <div class="card-block">
+                    <h3 class="color-primary">Dan O'Connor</h3>
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <a href="javascript:void(0)" class="btn-circle btn-circle-raised btn-circle-xs mt-1 mr-1 no-mr-md btn-facebook">
+                          <i class="zmdi zmdi-linkedin"></i>
+                        </a>
+                      </div>
+                      <div class="col-xs-6 text-right">
+                        <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal4" class="btn btn-raised btn-sm btn-primary">
+                           More Info</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal -->
+              <div class="modal modal-primary" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4">
+                <div class="modal-dialog animated zoomIn animated-3x" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">
+                          <i class="zmdi zmdi-close"></i>
+                        </span>
+                      </button>
+                      <h3 class="modal-title" id="myModalLabel4">Dan O'Connor</h3>
+                    </div>
+                    <div class="modal-body">
+            					<p><i>
+            						Harvard Advanced Leadership Initiative Fellow
+            						Managing Partner, Front4Ventures
+            						Founder, ADLI
+            					</i></p>
+            					<hr>
+            					<p>Dan O’Connor is the Managing Partner of Front4Ventures and founder of the Advanced Digital Leadership Initiative (ADLI) where he advises retailers and brands and enables leaders for the next generation of retail. In addition, Dan O’Connor is a fellow with Harvard University’s Advanced Leadership Initiative where he is working on a workforce 2030. </p>
+            					<p>
+            						Dan was also the founder and CEO of RetailNet Group (RNG), a leading advisory and insights firm that works with large scale retailers and brand leaders worldwide. During his time at RNG, Dan was the founding “Dean” of the Retail Leadership Program, an executive education program at UCLA and MIT for rising retail leaders from across 50+ countries.
+            					</p>
+            					<p>
+            						Dan has extensive experience serving on Board of Directors for companies such as Daymon Worldwide and publicly-traded firms such as Coinstar (NASDAQ), Emak Worldwide (NASDAQ), and DemandWare (NYSE), as well as on the board of Premier Retail Networks, a division of Thomson (NYSE).  DemandWare is a fast-growing, cloud-based software platform provider that powers digital commerce for some of the world’s most successful retail brands, including Panasonic, Land’s End, and Adidas.
+            					</p>
+            					<p>
+            						Earlier in his career, Dan founded Management Ventures, Inc., a syndicated research firm that followed the world’s largest retailers. He sold this company to WPP Group in 2001.  Dan started his career as the national director of Touche, Ross &amp; Co.’s (now Deloitte) Consumer Products &amp; Retail Consulting group.
+            					</p>
+            					<p>
+            						Dan holds a Bachelor of Science in Accounting and Economics from Clarkson University and is a Certified Public Accountant.  He is also a board member of the Concord Museum and of Emerson Hospital.
+            					</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card card-primary mt-4 wow zoomInUp animation-delay-9">
+                  <div class="withripple zoom-img">
+                    <a href="javascript:void()" class="team-image-container">
+                      <img src="assets/img/team/team3.png" alt="..." class="img-responsive">
+                    </a>
+                  </div>
+                  <div class="card-block">
+                    <h3 class="color-primary">Dan Wittner</h3>
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <a href="javascript:void(0)" class="btn-circle btn-circle-raised btn-circle-xs mt-1 mr-1 no-mr-md btn-facebook">
+                          <i class="zmdi zmdi-linkedin"></i>
+                        </a>
+                      </div>
+                      <div class="col-xs-6 text-right">
+                        <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal7" class="btn btn-raised btn-sm btn-primary">
+                           More Info</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal -->
+              <div class="modal modal-primary" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel7">
+                <div class="modal-dialog animated zoomIn animated-3x" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">
+                          <i class="zmdi zmdi-close"></i>
+                        </span>
+                      </button>
+                      <h3 class="modal-title" id="myModalLabel7">Dan Wittner</h3>
+                    </div>
+                    <div class="modal-body">
+                      <p>Dan Wittner lives in Newburyport MA with his wife and two sons. He has more than 25 years of professional experience in retail, operations, consulting, and technology. Dan is currently the Chief Operating Officer at One Door, based in the Seaport district of Boston. One Door is a SaaS company helping retail brands tell great stories by using technology to improve how they execute. He joined One Door in 2008 after funding, building and managing a market research company focused on market intelligence and the customer experience. </p>
+                      <p>
+                      Earlier in his career, Dan held leadership roles with Plum River Technology and the Timberland Company.  Even earlier...positions with Wilson Sporting Goods (a division of AMER Sports) and the Inter-American Development Bank. He holds a Bachelor’s degree in International Business from the University of New Hampshire and an MBA from the American Graduate School of International Management, Thunderbird.
+                      </p>
+                      <p>Dan has also been active as a Board Advisor to a variety of companies including Demandware and the National Wildlife Refuge. He and his family are avid skiers, hikers, campers and general adventure seekers.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-md-3">
+                <div class="card card-primary mt-4 wow zoomInUp animation-delay-9">
+                  <div class="withripple zoom-img">
+                    <a href="javascript:void()" class="team-image-container">
+                      <img src="assets/img/team/team5.png" alt="..." class="img-responsive">
+                    </a>
+                  </div>
+                  <div class="card-block">
+                    <h3 class="color-primary">Douglas Hosking</h3>
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <a href="www.linkedin.com/in/DGHOSKING" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mt-1 mr-1 no-mr-md btn-facebook">
+                          <i class="zmdi zmdi-linkedin"></i>
+                        </a>
+                      </div>
+                      <div class="col-xs-6 text-right">
+                        <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal5"  class="btn btn-raised btn-sm btn-primary">
+                           More Info</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal -->
+              <div class="modal modal-primary" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5">
+                <div class="modal-dialog animated zoomIn animated-3x" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">
+                          <i class="zmdi zmdi-close"></i>
+                        </span>
+                      </button>
+                      <h3 class="modal-title" id="myModalLabel5">Douglas Hoskings</h3>
+                    </div>
+                    <div class="modal-body">
+
+                      <p>Mr. Hosking is the Founder and President, Retail Media Group, Inc.  He has over 20 years of Consumer Packaged Goods, Retail and Manufacturing experience.  </p>
+                      <p>
+                        Previous experience includes:
+                      </p>
+                      <ul>
+                        <li>CEO Freeman Beauty Products, Inc.</li>
+                        <li>COO RetailNet Group, LLC</li>
+                        <li>Founder BlueSky Vision, LLC</li>
+                        <li>CEO of Visfinity</li>
+                        <li>President IPC Communications Services</li>
+                        <li>Senior Manager Deloitte Consulting</li>
+                        <li>National Director of Electronic Retail Touche Ross</li>
+                        <li>Manager Procter &amp; Gamble</li>
+                      </ul>
+                      <p>Current and past Board and Advisory Positions include:</p>
+                      <ul>
+                        <li>Freeman Beauty Products, Inc.</li>
+                        <li>Jiseki Health</li>
+                        <li>Journal Communications (Journal Media Group; JMG)</li>
+                        <li>Vision Insurance</li>
+                      </ul>
+                      <p>Doug earned an MBA from Harvard Business School and a Bachelor of Science in Industrial Engineering from The University of Southern California.   Doug is a Knight of the Sovereign Military Order of Malta.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- NO BIO -->
+              <div class="col-md-3">
+                <div class="card card-primary mt-4 wow zoomInUp animation-delay-9">
+                  <div class="withripple zoom-img">
+                    <a href="javascript:void()" class="team-image-container">
+                      <img src="assets/img/team/team6.png" alt="..." class="img-responsive">
+                    </a>
+                  </div>
+                  <div class="card-block">
+                    <h3 class="color-primary">Greg Ferguson</h3>
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <a href="javascript:void(0)" class="btn-circle btn-circle-raised btn-circle-xs mt-1 mr-1 no-mr-md btn-facebook">
+                          <i class="zmdi zmdi-linkedin"></i>
+                        </a>
+                      </div>
+                      <div class="col-xs-6 text-right">
+                        <a href="javascript:void(0)" class="btn btn-raised btn-sm btn-primary" data-toggle="modal" data-target="#myModal6" >
+                           More Info</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal -->
+              <div class="modal modal-primary" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6">
+                <div class="modal-dialog animated zoomIn animated-3x" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">
+                          <i class="zmdi zmdi-close"></i>
+                        </span>
+                      </button>
+                      <h3 class="modal-title" id="myModalLabel6">Greg Ferguson</h3>
+                    </div>
+                    <div class="modal-body">
+
+                      <p>A serial entrepreneur, Greg has extensive experience in venture capital-based high-tech start-ups in the Boston area.  Greg has been a member of the management team of five successful start-ups, including roles as founder and CEO on multiple occasions.  More recently, he is a founding partner of the Navy Yard Hospitality Group, with restaurants in Boston, East Boston and Charlestown.  </p>
+                      <p>
+                        Greg is a graduate of Tufts University and M.I.T’s Sloan School.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- NO BIO -->
+              <div class="col-md-3">
+                <div class="card card-primary mt-4 wow zoomInUp animation-delay-9">
+                  <div class="withripple zoom-img">
+                    <a href="javascript:void()" class="team-image-container">
+                      <img src="assets/img/team/team4.png" alt="..." class="img-responsive">
+                    </a>
+                  </div>
+                  <div class="card-block">
+                    <h3 class="color-primary">Everett Bramhall</h3>
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <a href="https://www.linkedin.com/in/everett-bramhall" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mt-1 mr-1 no-mr-md btn-facebook">
+                          <i class="zmdi zmdi-linkedin"></i>
+                        </a>
+                      </div>
+                      <div class="col-xs-6 text-right">
+                        <a href="javascript:void(0)" class="btn btn-raised btn-sm btn-primary" data-toggle="modal" data-target="#myModal8">
+                           More Info</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal -->
+              <div class="modal modal-primary" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel8">
+                <div class="modal-dialog animated zoomIn animated-3x" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">
+                          <i class="zmdi zmdi-close"></i>
+                        </span>
+                      </button>
+                      <h3 class="modal-title" id="myModalLabel8">Everett Bramhall</h3>
+                    </div>
+                    <div class="modal-body">
+
+                      <p>Everett Bramhall is an entrepreneur with over 30 years of experience designing, developing, manufacturing, selling, importing and distributing consumer goods in the house-ware, gift and sporting goods categories. Everett has built many brands from scratch, starting with the concept, ideation and execution needed to bring products and brands to the marketplace. Over the past few decades Everett has manufactured tens of thousands of items in over a half a dozen countries and distributed goods through wholesale and retail channels in the US, Canada, China, Mexico Taiwan and Japan.
+                      </p>
+                      <p>
+                        Everett enjoys many sports and loves to compete at all and anything possible.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card card-primary mt-4 wow zoomInUp animation-delay-9">
+                  <div class="withripple zoom-img">
+                    <a href="javascript:void()" class="team-image-container">
+                      <img src="assets/img/team/team2.png" alt="..." class="img-responsive">
+                    </a>
+                  </div>
+                  <div class="card-block">
+                    <h3 class="color-primary">Martin Deale</h3>
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <a href="https://www.linkedin.com/in/martin-deale-32aa8014/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mt-1 mr-1 no-mr-md btn-facebook">
+                          <i class="zmdi zmdi-linkedin"></i>
+                        </a>
+                      </div>
+                      <div class="col-xs-6 text-right">
+                        <a href="javascript:void(0)" class="btn btn-raised btn-sm btn-primary" data-toggle="modal" data-target="#myModal9">
+                           More Info</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal -->
+              <div class="modal modal-primary" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel9">
+                <div class="modal-dialog animated zoomIn animated-3x" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">
+                          <i class="zmdi zmdi-close"></i>
+                        </span>
+                      </button>
+                      <h3 class="modal-title" id="myModalLabel8">Martin Deale</h3>
+                    </div>
+                    <div class="modal-body">
+                      <p>Corporate Growth Leader and entrepreneur having founded and successfully sold 13 start-up companies (many of them global) during 20+ years of achievement. He is a long standing member of The Young Presidents' Organization, served as Chairman on the New England Board and as Director on the Northeastern US Board and was Chairman of The Business Executives Association of South Africa (EXAS).He won numerous Business Awards, most notably National   Emergent Marketer Of The year (South Africa), Business Excellence (South Africa), Millennium Product Of The Year (Europe – Awarded by Tony Blair, Prime Minister of England) and Top Products (SA Engineering Association).
+                      </p>
+                      <p>
+                        He is an avid rugby enthusiast, average golfer, skier and paddle tennis player, played competitive league squash for 35 years, completed 30+ standard marathons, four 60+ miler and two 100 miler ultra marathon races.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card card-primary mt-4 wow zoomInUp animation-delay-9">
+                  <div class="withripple zoom-img">
+                    <a href="javascript:void()" class="team-image-container">
+                      <img src="assets/img/team/team8.png" alt="..." class="img-responsive">
+                    </a>
+                  </div>
+                  <div class="card-block">
+                    <h3 class="color-primary">Spencer Millerberg</h3>
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <a href=" https://www.linkedin.com/in/millerberg/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mt-1 mr-1 no-mr-md btn-facebook">
+                          <i class="zmdi zmdi-linkedin"></i>
+                        </a>
+                      </div>
+                      <div class="col-xs-6 text-right">
+                        <a href="javascript:void(0)" class="btn btn-raised btn-sm btn-primary" data-toggle="modal" data-target="#myModal10">
+                           More Info</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal -->
+              <div class="modal modal-primary" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel10">
+                <div class="modal-dialog animated zoomIn animated-3x" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">
+                          <i class="zmdi zmdi-close"></i>
+                        </span>
+                      </button>
+                      <h3 class="modal-title" id="myModalLabel10">Spencer Millerberg</h3>
+                    </div>
+                    <div class="modal-body">
+                      <p>Spencer Millerberg is the CEO and Founder of One Click Retail, the market leader in eCommerce data measurement and search optimization for major brand manufacturers globally. The company provides eCommerce market share data for over 400+ brands including Procter &amp; Gamble, Panasonic, Nestle, Hamilton Beach, HP, and more. One Click Retail was acquired in 2016 by Ascential, a London based plc.
+                      </p>
+                      <p>
+                        Prior to One Click Retail, Spencer worked for Black and Decker, Walmart, and Amazon. He is a mediocre golfer, a good Samaritan, and an exceptionally gifted napper. Spencer holds a BA and MBA from BYU and resides in South Jordan Utah with his wife and five children.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section id"portfolio">
+      <div class="wrap">
+        <div class="container">
+          <div class="text-center mb-4">
+            <h1 class="wow zoomInDown">Portfolio</h1>
+          </div>
+          <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs">
+              <div class="card card-primary">
+                <div class="card-header">
+                  <h3 class="card-title">
+                    <i class="zmdi zmdi-filter-list"></i>Filter List</h3>
+                </div>
+                <div class="card-block no-pb">
+                  <form class="form-horizontal">
+                    <div class="form-group mt-1">
+                      <div class="radio no-mb">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios0" value="option0" checked="" class="filter" data-filter="all"> All </label>
+                      </div>
+                      <div class="radio no-mb">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" class="filter" data-filter=".category-1"> PE Funds Only  </label>
+                      </div>
+                      <div class="radio no-mb">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" class="filter" data-filter=".category-2"> Direct Co Investments </label>
+                      </div>
+                      <div class="radio no-mb">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" class="filter" data-filter=".category-3"> Exits </label>
+                      </div>
+
+
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="row" id="Container">
+                <div class="col-md-4 col-sm-6 mix category-1">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/pefunds/baincapital.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">Bain Capital</h4>
+                          <a href="https://www.baincapital.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-primary">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="col-md-4 col-sm-6 mix category-1">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/pefunds/benchmarkseniorliving.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">Benchmark Senior Living</h4>
+                          <a href="https://www.benchmarkseniorliving.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="col-md-4 col-sm-6 mix category-1">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/pefunds/generalcatalyst.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">General Catalyst</h4>
+                          <a href="http://generalcatalyst.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="col-md-4 col-sm-6 mix category-1">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/pefunds/polaris.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">Polaris Partners</h4>
+                          <a href="http://www.polarispartners.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="col-md-4 col-sm-6 mix category-2">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/directcoinvestments/aegisliving.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">Aegis Living</h4>
+                          <a href="https://www.aegisliving.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="col-md-4 col-sm-6 mix category-2">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/directcoinvestments/beco.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">Beco</h4>
+                          <a href="https://www.beco.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="col-md-4 col-sm-6 mix category-2">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/directcoinvestments/celect.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">Celect</h4>
+                          <a href="https://www.celect.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mix category-2">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/directcoinvestments/petiq.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">PetIq</h4>
+                          <a href="https://www.petiq.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mix category-2">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/directcoinvestments/renspetdepot.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">Rens Pet Depot</h4>
+                          <a href="https://www.renspetdepot.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mix category-3">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/exits/demandware.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">Demandware</h4>
+                          <a href="https://www.demandware.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mix category-3">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/exits/kantarretail.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">Kantar Retail</h4>
+                          <a href="https://www.kantarretail.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mix category-3">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/exits/oneclickretail.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">One Click Retail</h4>
+                          <a href="https://www.oneclickretail.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mix category-3">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/exits/onforce.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">OnForce</h4>
+                          <a href="https://www.onforce.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mix category-3">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/exits/redbox.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">Redbox</h4>
+                          <a href="https://www.redbox.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mix category-3">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/exits/upshotagency.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">Upshot Agency</h4>
+                          <a href="https://www.redbox.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mix category-3">
+                  <div class="card">
+                    <figure class="ms-thumbnail">
+                      <img src="assets/img/exits/zoomsystems.png" alt="" class="img-responsive">
+                      <figcaption class="ms-thumbnail-caption text-center">
+                        <div class="ms-thumbnail-caption-content">
+                          <h4 class="ms-thumbnail-caption-title mb-2">Zoom Systems</h4>
+                          <a href="https://www.zoomsystems.com/" target="_blank" class="btn-circle btn-circle-raised btn-circle-xs mr-1 btn-circle-white color-danger">
+                            <i class="zmdi zmdi-globe-alt"></i>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <div class="card-block text-center portfolio-item-caption hidden">
+                      <h3 class="color-primary no-mt">Lorem ipsum dolor</h3>
+                      <p>Explicabo consequatur quidem praesentium quas qui eius ina Cupiditate ratione sint.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- container -->
+    </section>
+    <section id="contact" class="mt-6">
+      <div class="wrap lb-bg">
+        <div class="container">
+          <h1 class="text-center mb-4 wow fadeInUp animation-delay-2">Contact</h1>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="card card-primary animated zoomInUp animation-delay-5">
+                <div class="card-block">
+                  <form class="form-horizontal">
+                    <fieldset>
+                      <div class="form-group">
+                        <label for="inputName" class="col-md-2 control-label">Name</label>
+                        <div class="col-md-9">
+                          <input type="text" class="form-control" id="inputName" placeholder="Name"> </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputEmail" class="col-md-2 control-label">Email</label>
+                        <div class="col-md-9">
+                          <input type="email" class="form-control" id="inputEmail" placeholder="Email"> </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputSubject" class="col-md-2 control-label">Subject</label>
+                        <div class="col-md-9">
+                          <input type="text" class="form-control" id="inputSubject" placeholder="Subject"> </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="textArea" class="col-md-2 control-label">Message</label>
+                        <div class="col-md-9">
+                          <textarea class="form-control" rows="5" id="textArea" placeholder="Your message..."></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-9 col-md-offset-2">
+                          <button type="submit" class="btn btn-raised btn-primary">Submit</button>
+                        </div>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- container -->
+      </div>
+
+    </section>
+      <footer class="ms-footer">
+        <div class="container">
+          <p>Copyright &copy; Rockhurst, LLC. 2017</p>
+        </div>
+      </footer>
+      <div class="btn-back-top">
+        <a href="#" data-scroll id="back-top" class="btn-circle btn-circle-primary btn-circle-sm btn-circle-raised ">
+          <i class="zmdi zmdi-long-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+    <!-- sb-site-container -->
+    <div class="ms-slidebar sb-slidebar sb-left sb-momentum-scrolling sb-style-overlay">
+      <header class="ms-slidebar-header">
+        <div class="ms-slidebar-login">
+          <a href="javascript:void(0)" class="withripple">
+            <i class="zmdi zmdi-account"></i> Login</a>
+        </div>
+        <div class="ms-slidebar-title">
+          <div class="ms-slidebar-t">
+            <h3>
+              <span>Rockhurst, LLC.</span>
+            </h3>
+          </div>
+        </div>
+      </header>
+      <ul class="ms-slidebar-menu" id="slidebar-menu" role="tablist" aria-multiselectable="true">
+
+        <li>
+          <a class="link" href="#home">
+             Home</a>
+        </li>
+        <li>
+          <a class="link" href="#creatingvalues">
+          Creating Values</a>
+        </li>
+        <li>
+          <a class="link" href="#team">
+          Team</a>
+        </li>
+        <li>
+          <a class="link" href="#portfolio">
+          Portfolio</a>
+        </li>
+        <li>
+          <a class="link" href="#contact">
+          Contact</a>
+        </li>
+      </ul>
+
+    </div>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/portfolio.js"></script>
+  </body>
 </html>
